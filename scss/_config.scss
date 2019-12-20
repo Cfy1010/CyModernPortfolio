@@ -45,7 +45,7 @@ $background-opacity: 0.9;
 
 // media query mixins
 @mixin mediaSm {
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 480px) {
         @content;
     }
 }
